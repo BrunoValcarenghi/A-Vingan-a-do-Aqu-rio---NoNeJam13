@@ -1,0 +1,1 @@
+if ativo{room_goto(global.sala_anterior)}

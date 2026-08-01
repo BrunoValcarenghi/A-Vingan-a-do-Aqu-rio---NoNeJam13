@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"scr_move_col",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"scr_move_col",
+  "parent":{
+    "name":"player_script",
+    "path":"folders/script/player_script.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

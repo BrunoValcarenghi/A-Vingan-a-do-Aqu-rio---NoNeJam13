@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"scr_get_input",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"scr_get_input",
+  "parent":{
+    "name":"player_script",
+    "path":"folders/script/player_script.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

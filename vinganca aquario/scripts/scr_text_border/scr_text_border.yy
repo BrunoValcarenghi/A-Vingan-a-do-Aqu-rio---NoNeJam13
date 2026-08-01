@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"scr_text_border",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"scr_text_border",
+  "parent":{
+    "name":"effects",
+    "path":"folders/script/effects.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"scr_defesa",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"scr_defesa",
+  "parent":{
+    "name":"battle",
+    "path":"folders/script/battle.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

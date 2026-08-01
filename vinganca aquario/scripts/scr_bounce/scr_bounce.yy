@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"scr_bounce",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"scr_bounce",
+  "parent":{
+    "name":"effects",
+    "path":"folders/script/effects.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

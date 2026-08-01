@@ -1,0 +1,1 @@
+global.id_char = id_char

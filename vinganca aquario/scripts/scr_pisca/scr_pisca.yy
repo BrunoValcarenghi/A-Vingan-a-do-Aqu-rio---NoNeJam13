@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"scr_pisca",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"scr_pisca",
+  "parent":{
+    "name":"effects",
+    "path":"folders/script/effects.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}
