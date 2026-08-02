@@ -31,6 +31,38 @@ function vitoria_derrota(){
 function vitoria(){
 	
 	level_up();
+	
+	drop = irandom(5)
+	if drop = 5 {
+		show_message("ganhou pocao p!")
+		adicionar_item("potion_p", 1)
+	}
+	
+	drop = irandom(20)
+	if drop = 20 {
+		show_message("ganhou pocao g!")
+		adicionar_item("potion_g", 1)
+	}
+	
+	drop = irandom(30)
+	if drop = 30 {
+		show_message("ganhou poison!")
+		adicionar_item("poison", 1)
+	}
+	
+	drop = irandom(50)
+	if drop = 50 {
+		show_message("ganhou med_kit!")
+		adicionar_item("med_kit", 1)
+	}
+	
+	drop = irandom(70)
+	if drop = 70 {
+		show_message("ganhou bomba!")
+		adicionar_item("bomb", 1)
+	}
+	
+	
 	show_message("venceu!")
 	room_goto(global.sala_anterior)
 

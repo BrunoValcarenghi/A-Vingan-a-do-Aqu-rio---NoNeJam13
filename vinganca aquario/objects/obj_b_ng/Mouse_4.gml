@@ -1,4 +1,2 @@
-// start a new game
-// comienza un nuevo juego
-// inicia um novo jogo
-room_goto(Room1)
+transition(Room1, sq_fade_out,sq_fade_in)
+//room_goto(Room1)

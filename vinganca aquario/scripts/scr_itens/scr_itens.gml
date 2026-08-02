@@ -5,7 +5,7 @@ function criar_itens(){
 		"potion_p": {
 		
 			nome: "Poção Pequena",
-			sprite: spr_potion,
+			sprite: spr_potion_p,
 	        descricao: "Cura 25 pontos de HP.",
 	        tipo: "cura_hp",
 	        valor: 25
@@ -15,27 +15,37 @@ function criar_itens(){
 		"potion_g": {
 		
 			nome: "Poção Grande",
-			sprite: spr_potion,
+			sprite: spr_potion_g,
 	        descricao: "Cura 75 pontos de HP.",
 	        tipo: "cura_hp",
 	        valor: 75
 		
 		},
 		
-		"veneno": {
+		"poison": {
 		
 			nome: "Veneno",
-			sprite: spr_potion,
-	        descricao: "Aplica 50 de dano.",
+			sprite: spr_poison,
+	        descricao: "Causa 30 de dano.",
 	        tipo: "cura_hp",
-	        valor: -50
+	        valor: -30
+		
+		},
+		
+		"bomb": {
+		
+			nome: "Bomba",
+			sprite: spr_bomb,
+	        descricao: "Causa 75 de dano.",
+	        tipo: "cura_hp",
+	        valor: -75
 		
 		},
 		
 		"med_kit": {
 		
 			nome: "Kit Médico",
-			sprite: spr_potion,
+			sprite: spr_medkit,
 	        descricao: "Cura HP total.",
 	        tipo: "cura_hp_total",
 	        valor: 0

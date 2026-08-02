@@ -1,11 +1,16 @@
  if place_meeting(x, y, obj_player){
-	
+
 	global.sala_anterior = room;
 	instance_destroy()
 	global.inimigos = [
 		variable_clone(global.rato),
 		variable_clone(global.rato),
 	]
-	room_goto(Room_battle)
-
+	
+	//room_goto(Room_battle)
+	if t {
+		transition(Room_battle, sq_fade_out, sq_fade_in)
+	}
+	t = false
+	
 }
