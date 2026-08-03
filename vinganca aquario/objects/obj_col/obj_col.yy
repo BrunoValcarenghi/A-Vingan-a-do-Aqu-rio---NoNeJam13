@@ -32,5 +32,5 @@
     "path":"sprites/spr_col/spr_col.yy",
   },
   "spriteMaskId":null,
-  "visible":true,
+  "visible":false,
 }

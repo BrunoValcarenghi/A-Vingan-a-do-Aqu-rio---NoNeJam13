@@ -9,16 +9,18 @@ function level_up(){
 		
 	}
 	
+	var _txt = ""
+	
 	for(var i = 0; i < _t; i++){
 		
 		_xp_necessario = 50 * (power(global.personagens[i].lvl, 2)) + 100 * global.personagens[i].lvl
 		
 		while (global.personagens[i].xp >= _xp_necessario) {
 			
-			
 			global.personagens[i].xp -= _xp_necessario
 			
-			var mul = (power(1.1, global.personagens[i].lvl));
+			//var mul = (power(1.1, global.personagens[i].lvl));
+			var mul = 1.225
 			global.personagens[i].lvl ++
 			//show_message(mul)
 			
@@ -29,7 +31,11 @@ function level_up(){
 			
 			_xp_necessario = 50 * (power(global.personagens[i].lvl, 2)) + 100 * global.personagens[i].lvl;
 			
+			_txt = string_concat(_txt, " ", global.personagens[i].nome, " subiu \npara o nivel ", global.personagens[i].lvl, "!\n" )
+			
 		}
 	}
+	
+	return _txt
 
 }

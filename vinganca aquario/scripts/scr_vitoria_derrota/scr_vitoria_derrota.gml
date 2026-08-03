@@ -8,7 +8,9 @@ function vitoria_derrota(){
 	    }
 	}
 	//venceu a batalha
-	if (array_length(_inimigos_validos) <= 0) {vitoria()}
+	if (array_length(_inimigos_validos) <= 0) and !ganhou{
+		ganhou = vitoria()
+	}
 	
 	
 	//checa derrota
@@ -30,42 +32,48 @@ function vitoria_derrota(){
 
 function vitoria(){
 	
-	level_up();
+	var _txt1 = level_up();
+	var _txt2 = ""
 	
-	drop = irandom(5)
-	if drop = 5 {
-		show_message("ganhou pocao p!")
+	drop = irandom(3)
+	if drop = 0 {
+		_txt2 = string_concat(_txt2, " Ganhou poção \npequena!\n")
 		adicionar_item("potion_p", 1)
 	}
 	
-	drop = irandom(20)
-	if drop = 20 {
-		show_message("ganhou pocao g!")
+	drop = irandom(8)
+	if drop = 0 {
+		_txt2 = string_concat(_txt2, " Ganhou poção \ngrande!\n")
 		adicionar_item("potion_g", 1)
 	}
 	
-	drop = irandom(30)
-	if drop = 30 {
-		show_message("ganhou poison!")
+	drop = irandom(10)
+	if drop = 0 {
+		_txt2 = string_concat(_txt2, " Ganhou veneno!\n")
 		adicionar_item("poison", 1)
 	}
 	
-	drop = irandom(50)
-	if drop = 50 {
-		show_message("ganhou med_kit!")
+	drop = irandom(20)
+	if drop = 0{
+		_txt2 = string_concat(_txt2, " Ganhou kit \nmédico!\n")
 		adicionar_item("med_kit", 1)
 	}
 	
-	drop = irandom(70)
-	if drop = 70 {
-		show_message("ganhou bomba!")
+	drop = irandom(20)
+	if drop = 0 {
+		_txt2 = string_concat(_txt2, " Ganhou bomba!\n")
 		adicionar_item("bomb", 1)
 	}
 	
+	if _txt1 = "" _txt1 = " Ninguém subiu \nde nivel"
+	if _txt2 = "" _txt2 = " Não ganhou \nnada"
+	instance_create_layer(320, 150, "Instances", obj_battle_final,{txt1: _txt1, txt2: _txt2})
+	instance_create_layer(320, 280, "Instances", obj_battle_venceu)
 	
-	show_message("venceu!")
-	room_goto(global.sala_anterior)
-
+	//show_message("venceu!")
+	//room_goto(global.sala_anterior)
+	return true;
+	
 }
 
 function derrota(){

@@ -20,3 +20,6 @@ clicou = false;
 yy = 200
 
 scale = 7
+
+ativo = true
+saida = -1

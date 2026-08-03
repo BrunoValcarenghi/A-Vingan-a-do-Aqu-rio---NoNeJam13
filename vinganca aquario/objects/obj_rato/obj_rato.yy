@@ -2,17 +2,19 @@
   "$GMObject":"",
   "%Name":"obj_rato",
   "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":4,"eventType":7,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
   "name":"obj_rato",
   "overriddenProperties":[],
   "parent":{
-    "name":"obj",
-    "path":"folders/obj.yy",
+    "name":"inimigos",
+    "path":"folders/obj/inimigos.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"obj_enemy",
+    "path":"objects/obj_enemy/obj_enemy.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -29,7 +31,7 @@
   "properties":[],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
-  "solid":false,
+  "solid":true,
   "spriteId":{
     "name":"spr_rato",
     "path":"sprites/spr_rato/spr_rato.yy",

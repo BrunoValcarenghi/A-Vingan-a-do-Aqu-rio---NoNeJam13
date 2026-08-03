@@ -5,6 +5,7 @@ global.atacando = false
 global.defendendo = false
 global.item = false
 xp = 0
+ganhou = false
 
 var _t = 3
 if array_length(global.personagens) < 3 _t = array_length(global.personagens)

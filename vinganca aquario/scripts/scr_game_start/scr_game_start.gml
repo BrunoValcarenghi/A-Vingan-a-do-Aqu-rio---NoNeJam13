@@ -44,4 +44,7 @@ function game_start(){
 	global.bege = #D7B594
 	global.lightbrown = #7A4841
 	
+		//efeito borboleta
+	global.flag_dog = false
+	
 }

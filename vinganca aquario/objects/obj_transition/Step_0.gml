@@ -7,6 +7,7 @@ if ativo{
 		camera_get_view_y(view_camera[0]), 
 		global.transition_saida
 	);
+	if instance_exists(obj_player) obj_player.trava = true
 
 }
 

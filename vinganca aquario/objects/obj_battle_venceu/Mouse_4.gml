@@ -1,0 +1,1 @@
+transition(global.sala_anterior, sq_fade_out, sq_fade_in)

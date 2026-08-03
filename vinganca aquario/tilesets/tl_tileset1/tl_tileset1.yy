@@ -2,10 +2,10 @@
   "$GMTileSet":"v1",
   "%Name":"tl_tileset1",
   "autoTileSets":[
-    {"$GMAutoTileSet":"","%Name":"autotile_1","closed_edge":false,"name":"autotile_1","resourceType":"GMAutoTileSet","resourceVersion":"2.0","tiles":[6,0,0,2,0,5,0,1,0,0,7,3,10,9,11,0,],},
-    {"$GMAutoTileSet":"","%Name":"autotile_2","closed_edge":false,"name":"autotile_2","resourceType":"GMAutoTileSet","resourceVersion":"2.0","tiles":[18,0,0,14,0,17,0,13,0,0,19,15,22,21,23,0,],},
-    {"$GMAutoTileSet":"","%Name":"autotile_3","closed_edge":false,"name":"autotile_3","resourceType":"GMAutoTileSet","resourceVersion":"2.0","tiles":[30,0,0,26,0,29,0,25,0,0,31,27,34,33,35,0,],},
-    {"$GMAutoTileSet":"","%Name":"autotile_4","closed_edge":false,"name":"autotile_4","resourceType":"GMAutoTileSet","resourceVersion":"2.0","tiles":[42,0,0,38,0,41,0,37,0,0,43,39,46,45,47,0,],},
+    {"$GMAutoTileSet":"","%Name":"autotile_1","closed_edge":false,"name":"autotile_1","resourceType":"GMAutoTileSet","resourceVersion":"2.0","tiles":[179,156,158,135,200,177,50,134,202,51,181,136,223,222,224,0,],},
+    {"$GMAutoTileSet":"","%Name":"autotile_2","closed_edge":false,"name":"autotile_2","resourceType":"GMAutoTileSet","resourceVersion":"2.0","tiles":[145,232,230,231,144,189,0,210,142,0,185,208,143,166,164,187,],},
+    {"$GMAutoTileSet":"","%Name":"autotile_3","closed_edge":false,"name":"autotile_3","resourceType":"GMAutoTileSet","resourceVersion":"2.0","tiles":[77,54,56,33,98,75,117,32,100,118,79,34,121,120,122,69,],},
+    {"$GMAutoTileSet":"","%Name":"autotile_4","closed_edge":false,"name":"autotile_4","resourceType":"GMAutoTileSet","resourceVersion":"2.0","tiles":[445,444,442,443,356,401,0,422,375,0,397,420,355,378,376,399,],},
   ],
   "macroPageTiles":{
     "SerialiseHeight":0,
@@ -13,7 +13,7 @@
     "TileSerialiseData":[],
   },
   "name":"tl_tileset1",
-  "out_columns":16,
+  "out_columns":26,
   "out_tilehborder":2,
   "out_tilevborder":2,
   "parent":{
@@ -39,5 +39,5 @@
   "tileWidth":16,
   "tilexoff":0,
   "tileyoff":0,
-  "tile_count":264,
+  "tile_count":682,
 }

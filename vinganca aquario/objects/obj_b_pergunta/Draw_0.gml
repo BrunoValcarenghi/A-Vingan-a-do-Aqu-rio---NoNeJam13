@@ -1,0 +1,7 @@
+draw_self()
+button_hover_1()
+draw_set_colour(color)
+draw_set_halign(1)
+draw_set_valign(1)
+draw_set_font(f_nicoclean)
+draw_text(x, y, txt)

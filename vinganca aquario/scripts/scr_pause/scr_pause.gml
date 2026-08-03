@@ -1,6 +1,6 @@
 function scr_pause(){
 
-	if keyboard_check_pressed(vk_escape){
+	if keyboard_check_pressed(vk_escape) and obj_transition.saida = -1{
 	
 		global.pausa=!global.pausa
 	
@@ -10,11 +10,13 @@ function scr_pause(){
 	
 		global.sala_anterior = room;
 		room_goto(Room_pause)
+		//transition(Room_pause, sq_fade_out, sq_fade_in)
 		
 	}
 	else if !global.pausa and room = Room_pause{
 	
 		room_goto(global.sala_anterior)
+		//transition(global.sala_anterior, sq_fade_out, sq_fade_in)
 	
 	}
 	

@@ -1,8 +1,8 @@
 if (flw != noone)
 {
-
-	xt = flw.x
-	yt = flw.y
+	
+	if flw.x > 320 and flw.x <  960 xt = flw.x
+	if flw.y > 180 and flw.y < 1420 yt = flw.y
 
 }
 
