@@ -9,7 +9,9 @@ if global.transition_entrada = -1 and entrada != -1{
 }
 
 if global.transition_entrada != -1{
-
+	
+	layer_depth("transition", -10000);
+	
 	entrada = layer_sequence_create(
 		"transition", 
 		obj_cam.x - 340,

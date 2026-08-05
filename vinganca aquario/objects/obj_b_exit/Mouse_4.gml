@@ -9,7 +9,9 @@ if image_alpha = 1{
 			camera_get_view_y(view_camera[0]), 
 			sq_fade_out
 		);
-
+		
+		play_audio_random(sfx_shoot, .7, 1.5)
+		
 	}
 
 }

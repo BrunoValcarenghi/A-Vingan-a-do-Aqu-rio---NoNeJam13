@@ -17,4 +17,7 @@ if !ganhou{
 	vitoria_derrota()
 	
 }
-else obj_battle_buttons.ativo = false
+else{
+	layer_destroy_instances("buttons")
+	layer_set_visible("ui", 0)
+}

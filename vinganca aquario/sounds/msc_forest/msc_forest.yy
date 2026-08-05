@@ -1,0 +1,26 @@
+{
+  "$GMSound":"v2",
+  "%Name":"msc_forest",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "channelFormat":0,
+  "compression":0,
+  "compressionQuality":4,
+  "conversionMode":0,
+  "duration":85.57714,
+  "exportDir":"",
+  "name":"msc_forest",
+  "parent":{
+    "name":"sfx",
+    "path":"folders/sfx.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"msc_forest.mp3",
+  "volume":1.0,
+}

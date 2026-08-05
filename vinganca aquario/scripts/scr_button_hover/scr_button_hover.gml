@@ -65,3 +65,29 @@ function button_next_previus_hover(){
 	}
 	
 }
+
+function button_hover_battle(xscale = 1.8, yscale = 2){
+	
+	//cor
+	if place_meeting(x, y, obj_cursor){
+		
+		if color != h_color and image_alpha = 1 audio_play_sound(sfx_button, 20, 0, global.volume/2)
+		
+		color = h_color
+		b_color = hb_color
+		
+		image_xscale = xscale + .1
+		image_yscale = yscale + .1
+
+	}
+	else{
+		
+		color = i_color
+		b_color = ib_color
+		
+		image_xscale = xscale
+		image_yscale = yscale
+		
+	}
+
+}

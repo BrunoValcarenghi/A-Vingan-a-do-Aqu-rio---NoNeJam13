@@ -10,8 +10,8 @@
   "name":"obj_cachorro",
   "overriddenProperties":[],
   "parent":{
-    "name":"obj",
-    "path":"folders/obj.yy",
+    "name":"interacao",
+    "path":"folders/obj/interacao.yy",
   },
   "parentObjectId":null,
   "persistent":false,

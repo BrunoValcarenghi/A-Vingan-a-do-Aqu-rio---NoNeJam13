@@ -3,8 +3,8 @@
   "%Name":"spr_potion_p",
   "bboxMode":0,
   "bbox_bottom":24,
-  "bbox_left":10,
-  "bbox_right":21,
+  "bbox_left":12,
+  "bbox_right":19,
   "bbox_top":8,
   "collisionKind":1,
   "collisionTolerance":0,
@@ -12,14 +12,14 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"v1","%Name":"1dff5971-a67d-46c8-b349-de8663d6c5c9","name":"1dff5971-a67d-46c8-b349-de8663d6c5c9","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"4dd0163c-4e90-4e6e-b3fd-e555ee45dc17","name":"4dd0163c-4e90-4e6e-b3fd-e555ee45dc17","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
   "height":32,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"0dc567c6-b928-4915-8a6c-755b9ded53d8","blendMode":0,"displayName":"default","isLocked":false,"name":"0dc567c6-b928-4915-8a6c-755b9ded53d8","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"13a828e6-d76a-4d51-999e-4d7eefe7b943","blendMode":0,"displayName":"default","isLocked":false,"name":"13a828e6-d76a-4d51-999e-4d7eefe7b943","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"spr_potion_p",
   "nineSlice":null,
@@ -69,8 +69,8 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"1dff5971-a67d-46c8-b349-de8663d6c5c9","path":"sprites/spr_potion_p/spr_potion_p.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"a9cd7f78-a649-4e9f-ab92-dc0c851e6818","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"4dd0163c-4e90-4e6e-b3fd-e555ee45dc17","path":"sprites/spr_potion_p/spr_potion_p.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"7f2820ab-83af-4f08-b7c3-28024d5a3551","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

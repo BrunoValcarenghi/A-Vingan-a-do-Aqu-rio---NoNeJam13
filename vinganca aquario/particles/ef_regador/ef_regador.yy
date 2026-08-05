@@ -1,0 +1,26 @@
+{
+  "$GMParticleSystem":"",
+  "%Name":"ef_regador",
+  "backdropHeight":768,
+  "backdropImageOpacity":0.5,
+  "backdropImagePath":"",
+  "backdropWidth":1366,
+  "backdropXOffset":0.0,
+  "backdropYOffset":0.0,
+  "drawOrder":0,
+  "emitters":[
+    {"$GMPSEmitter":"","%Name":"Emitter1_1","additiveBlend":false,"directionIncrease":0.0,"directionMax":160.0,"directionMin":150.0,"directionWiggle":0.0,"distribution":0,"editorColour":16777215,"editorDrawShape":true,"emitCount":10,"emitDelayMax":0.0,"emitDelayMin":0.0,"emitDelayUnits":1,"emitIntervalMax":10.0,"emitIntervalMin":10.0,"emitIntervalUnits":1,"enabled":true,"endColour":16777215,"GMPresetName":"","gravityDirection":270.0,"gravityForce":0.05,"headPosition":0.0,"lifetimeMax":20.0,"lifetimeMin":25.0,"linkedEmitter":null,"locked":false,"midColour":3048902479,"mode":0,"name":"Emitter1_1","orientationIncrease":0.5,"orientationMax":0.0,"orientationMin":0.0,"orientationRelative":false,"orientationWiggle":0.0,"regionH":1.4617443,"regionW":3.0752754,"regionX":-6.0,"regionY":-3.0,"resourceType":"GMPSEmitter","resourceVersion":"2.0","scaleX":0.7,"scaleY":0.1,"shape":1,"sizeIncrease":0.0,"sizeMax":0.15,"sizeMin":0.02,"sizeWiggle":0.0,"spawnOnDeathCount":0,"spawnOnDeathGMPreset":null,"spawnOnDeathId":null,"spawnOnUpdateCount":0,"spawnOnUpdateGMPreset":null,"spawnOnUpdateId":null,"speedIncrease":0.02,"speedMax":3.0,"speedMin":2.0,"speedWiggle":0.0,"spriteAnimate":false,"spriteId":null,"spriteRandom":false,"spriteStretch":true,"startColour":4290416463,"texture":2,},
+    {"$GMPSEmitter":"","%Name":"Emitter1","additiveBlend":false,"directionIncrease":0.0,"directionMax":30.0,"directionMin":20.0,"directionWiggle":0.0,"distribution":0,"editorColour":16777215,"editorDrawShape":true,"emitCount":10,"emitDelayMax":0.0,"emitDelayMin":0.0,"emitDelayUnits":1,"emitIntervalMax":10.0,"emitIntervalMin":10.0,"emitIntervalUnits":1,"enabled":true,"endColour":16777215,"GMPresetName":"","gravityDirection":270.0,"gravityForce":0.05,"headPosition":0.0,"lifetimeMax":20.0,"lifetimeMin":25.0,"linkedEmitter":null,"locked":false,"midColour":3048902479,"mode":0,"name":"Emitter1","orientationIncrease":0.5,"orientationMax":0.0,"orientationMin":0.0,"orientationRelative":false,"orientationWiggle":0.0,"regionH":1.4617443,"regionW":3.0752754,"regionX":7.0,"regionY":-3.0,"resourceType":"GMPSEmitter","resourceVersion":"2.0","scaleX":0.7,"scaleY":0.1,"shape":1,"sizeIncrease":0.0,"sizeMax":0.15,"sizeMin":0.02,"sizeWiggle":0.0,"spawnOnDeathCount":0,"spawnOnDeathGMPreset":null,"spawnOnDeathId":null,"spawnOnUpdateCount":0,"spawnOnUpdateGMPreset":null,"spawnOnUpdateId":null,"speedIncrease":0.02,"speedMax":3.0,"speedMin":2.0,"speedWiggle":0.0,"spriteAnimate":false,"spriteId":null,"spriteRandom":false,"spriteStretch":true,"startColour":4290416463,"texture":2,},
+  ],
+  "name":"ef_regador",
+  "parent":{
+    "name":"effects",
+    "path":"folders/effects.yy",
+  },
+  "resourceType":"GMParticleSystem",
+  "resourceVersion":"2.0",
+  "showBackdrop":true,
+  "showBackdropImage":false,
+  "xorigin":0,
+  "yorigin":0,
+}

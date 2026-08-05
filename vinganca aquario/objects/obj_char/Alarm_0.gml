@@ -19,7 +19,18 @@ if (array_length(_alvos_validos) > 0) {
     var dano = floor(power(global.batalha[global.vez].atk, 2) / (global.batalha[global.vez].atk + global.batalha[_id_atacar].def));
 	perdeu_defesa(_id_atacar)
     if (dano < 1) dano = 1;
-    
+    shake(1)
+	_id_obj_atacar = noone
+	with (obj_char) {
+	    if (vez == other._id_atacar) {
+	        other._id_obj_atacar = id; 
+	        break;
+	    }
+	}
+	play_audio_random(sfx_damage)
+	_id_obj_atacar.hit = 5
+	part_system_position(part_system_create(ef_hit), _id_obj_atacar.x, _id_obj_atacar.y)
+	
     global.batalha[_id_atacar].vida -= dano;
 
 }

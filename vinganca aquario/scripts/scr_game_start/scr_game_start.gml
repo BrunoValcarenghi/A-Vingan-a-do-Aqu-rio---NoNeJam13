@@ -46,5 +46,15 @@ function game_start(){
 	
 		//efeito borboleta
 	global.flag_dog = false
+	global.flag_esmola = false
+	global.flag_regador = false
+	global.flag_vela = false
+	global.flag_abelha = false
+	global.flag_rato = false
+	
+	global.flag_mago = false
+	global.flag_sabao = false
+	global.flag_banquete = false
+	global.flag_feitico = false
 	
 }

@@ -8,7 +8,7 @@
 	
 	
 	
-	alarm[0] = 30
+	alarm[0] = 90
 	transition(Room_battle, saida, entrada)
 
 	

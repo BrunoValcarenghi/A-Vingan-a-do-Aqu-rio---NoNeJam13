@@ -2,10 +2,11 @@
   "$GMTileSet":"v1",
   "%Name":"tl_tileset1",
   "autoTileSets":[
-    {"$GMAutoTileSet":"","%Name":"autotile_1","closed_edge":false,"name":"autotile_1","resourceType":"GMAutoTileSet","resourceVersion":"2.0","tiles":[179,156,158,135,200,177,50,134,202,51,181,136,223,222,224,0,],},
-    {"$GMAutoTileSet":"","%Name":"autotile_2","closed_edge":false,"name":"autotile_2","resourceType":"GMAutoTileSet","resourceVersion":"2.0","tiles":[145,232,230,231,144,189,0,210,142,0,185,208,143,166,164,187,],},
-    {"$GMAutoTileSet":"","%Name":"autotile_3","closed_edge":false,"name":"autotile_3","resourceType":"GMAutoTileSet","resourceVersion":"2.0","tiles":[77,54,56,33,98,75,117,32,100,118,79,34,121,120,122,69,],},
-    {"$GMAutoTileSet":"","%Name":"autotile_4","closed_edge":false,"name":"autotile_4","resourceType":"GMAutoTileSet","resourceVersion":"2.0","tiles":[445,444,442,443,356,401,0,422,375,0,397,420,355,378,376,399,],},
+    {"$GMAutoTileSet":"","%Name":"grama","closed_edge":false,"name":"grama","resourceType":"GMAutoTileSet","resourceVersion":"2.0","tiles":[179,156,158,135,200,177,50,134,202,51,181,136,223,222,224,0,],},
+    {"$GMAutoTileSet":"","%Name":"agua","closed_edge":false,"name":"agua","resourceType":"GMAutoTileSet","resourceVersion":"2.0","tiles":[145,232,230,231,144,189,0,210,142,0,185,208,143,166,164,187,],},
+    {"$GMAutoTileSet":"","%Name":"mato","closed_edge":false,"name":"mato","resourceType":"GMAutoTileSet","resourceVersion":"2.0","tiles":[77,54,56,33,98,75,117,32,100,118,79,34,121,120,122,69,],},
+    {"$GMAutoTileSet":"","%Name":"terra","closed_edge":false,"name":"terra","resourceType":"GMAutoTileSet","resourceVersion":"2.0","tiles":[445,444,442,443,356,401,0,422,375,0,397,420,355,378,376,399,],},
+    {"$GMAutoTileSet":"","%Name":"lama","closed_edge":false,"name":"lama","resourceType":"GMAutoTileSet","resourceVersion":"2.0","tiles":[404,381,383,360,425,402,0,359,427,0,406,384,448,447,449,471,],},
   ],
   "macroPageTiles":{
     "SerialiseHeight":0,

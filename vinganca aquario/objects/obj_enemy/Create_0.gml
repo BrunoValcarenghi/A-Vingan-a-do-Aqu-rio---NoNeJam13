@@ -1,6 +1,13 @@
 ativo = true
-saida = sq_fade_out
-entrada = sq_fade_in
+
+if irandom(1) = 0 {
+	saida = sq_battle_out_1
+	entrada = sq_battle_in_1
+}
+else{
+	saida = sq_battle_out_2
+	entrada = sq_battle_in_2
+}
 
 xx = x
 yy = y

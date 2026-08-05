@@ -4,6 +4,7 @@ function defesa(){
 
 		with (obj_char) {
 		    if (vez == global.vez) {
+				alarm[1] = 1
 		        defendeu = true
 		        break;
 		    }
@@ -11,7 +12,7 @@ function defesa(){
 	
 		//calculo defesa
 		global.batalha[global.vez].def *= 2
-	
+		
 		global.defendendo = false
 		global.vez++
 	

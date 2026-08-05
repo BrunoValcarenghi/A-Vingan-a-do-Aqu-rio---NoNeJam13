@@ -1,7 +1,9 @@
 draw_self()
-draw_set_colour(c_black)
+if ativo button_hover_battle()
 draw_set_halign(1)
 draw_set_valign(1)
 draw_set_font(f_nicoclean)
+draw_set_colour(color)
 
-draw_text(x, y, "Fugir")
+//draw_text(x, y, "Fugir")
+text_border(x, y, "Fugir", b_color, color, 1)

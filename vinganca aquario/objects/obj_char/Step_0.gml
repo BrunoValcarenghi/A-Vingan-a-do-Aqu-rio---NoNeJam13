@@ -13,13 +13,13 @@ if !morto{
 	if bom{
 	
 		//posicao amigo
-		if global.vez = vez and x < 250{x += spd}
+		if global.vez = vez and x < 220{x += spd}
 		else if global.vez != vez and x > 200{x-=spd}
 	}
 	else{
-	
+		
 		//posicao inimigo
-		if global.vez = vez and x >= 390{x -= spd}
+		if global.vez = vez and x >= 420{x -= spd}
 		else if global.vez != vez and x <= 440{x+=spd}
 	
 		//acao do inimigo
@@ -42,7 +42,7 @@ else{
 	if global.batalha[vez].vida > 0 global.batalha[vez].vida = 0
 	
 	image_speed  = 0
-	image_alpha = 0.5
+	image_alpha = 0.3
 	
 		//acao morto, pula o turno
 		if global.vez = vez{

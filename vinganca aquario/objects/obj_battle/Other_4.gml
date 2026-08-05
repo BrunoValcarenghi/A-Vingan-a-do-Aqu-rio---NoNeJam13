@@ -35,6 +35,11 @@ for(i = 0; i < array_length(global.inimigos); i++){
 	
 	array_push(global.batalha, global.inimigos[i])
 	array_push(global.batalha_obj, _char)
+	
+	//orc
+	if global.inimigos[i].nome = global.orc_e.nome {
+		instance_create_layer(_char.x, y, "instances", obj_escudo)
+	}
 
 }
 global.vez = 0

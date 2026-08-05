@@ -3,7 +3,10 @@ y = obj_cam.y + 130
 
 obj_player.trava = true
 
-if obj_player.key_interactive i++
+if obj_player.key_interactive {
+	play_audio_random(sfx_dialogo)
+	i++
+}
 
 if i >= array_length(f) {
 	

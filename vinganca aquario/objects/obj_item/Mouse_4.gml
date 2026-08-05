@@ -6,5 +6,6 @@ if ativo{
 		obj_item.ativo = false
 	}
 	global.item_id_atual = id_item
+	play_audio_random(sfx_shoot, .7, 1.5, .5)
 	
 }
