@@ -29,9 +29,17 @@ function game_start(){
 	global.battle_inventaro = false
 
 		//inicial
-	global.personagens = [global.Juquinha]
+	global.personagens = [
+		global.Juquinha, 
+		//global.Mago, 
+		//global.Cachorro
+	]
 	global.inventario = [
 		{item_id: "potion_p", quantidade: 2},
+		//{item_id: "potion_g", quantidade: 2},
+		//{item_id: "bomb", quantidade: 2},
+		//{item_id: "poison", quantidade: 2},
+		//{item_id: "med_kit", quantidade: 2},
 	]
 
 		//setings

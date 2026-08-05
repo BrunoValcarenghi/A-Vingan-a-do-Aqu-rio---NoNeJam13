@@ -26,7 +26,7 @@ if array_length(global.inventario) > 0{
 	draw_text(336, y + 60, i.descricao)
 	
 	draw_set_font(f_nicoclean)
-	draw_text(360, y + 96, "Usar em:")
+	draw_text(360, y + 80, "Usar em:")
 
 }
 else{

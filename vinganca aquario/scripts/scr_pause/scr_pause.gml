@@ -74,7 +74,7 @@ function renderizar_pause(){
 			}
 			for(var i = 0; i < array_length(global.personagens); i++){
 
-				instance_create_layer(392 + 72 * i, 280, "bolsa", obj_usar_item, {id_char: i})
+				instance_create_layer(392 + 72 * i, 264, "bolsa", obj_usar_item, {id_char: i})
 
 			}
 			
