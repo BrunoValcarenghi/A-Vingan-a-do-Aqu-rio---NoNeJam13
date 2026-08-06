@@ -43,7 +43,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2026.0.0.16",
+    "IDEVersion":"2024.14.4.222",
   },
   "name":"top-down template",
   "resources":[
@@ -147,6 +147,7 @@
     {"id":{"name":"Room2","path":"rooms/Room2/Room2.yy",},},
     {"id":{"name":"scr_ataque","path":"scripts/scr_ataque/scr_ataque.yy",},},
     {"id":{"name":"scr_audio","path":"scripts/scr_audio/scr_audio.yy",},},
+    {"id":{"name":"scr_barra_vida","path":"scripts/scr_barra_vida/scr_barra_vida.yy",},},
     {"id":{"name":"scr_bounce","path":"scripts/scr_bounce/scr_bounce.yy",},},
     {"id":{"name":"scr_button_hover","path":"scripts/scr_button_hover/scr_button_hover.yy",},},
     {"id":{"name":"scr_defesa","path":"scripts/scr_defesa/scr_defesa.yy",},},

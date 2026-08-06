@@ -58,17 +58,17 @@ switch flag{
 	case "fonte":
 		global.flag_sabao = validar
 		if global.flag_sabao{
-			global.arquimago.vida /= 2
-			global.arquimago_f.vida  /= 2
-			global.elfo.vida  /= 2
-			global.elfo_guarda.vida  /= 2
-			global.elfo_mago.vida  /= 2
+			global.arquimago.vida = floor(global.arquimago.vida / 2)
+			global.arquimago_f.vida = floor(global.arquimago_f.vida / 2)
+			global.elfo.vida = floor(global.elfo.vida / 2)
+			global.elfo_guarda.vida = floor(global.elfo_guarda.vida / 2)
+			global.elfo_mago.vida = floor(global.elfo_mago.vida / 2)
 		}
 		else{
 		
 			for(var j = 0; j < array_length(global.personagens); j++){
 			
-				global.personagens[j].hp = global.personagens[j].vida
+				global.personagens[j].vida = global.personagens[j].hp
 			
 			}
 		

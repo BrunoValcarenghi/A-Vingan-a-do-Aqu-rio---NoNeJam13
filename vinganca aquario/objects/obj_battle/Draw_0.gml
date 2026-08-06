@@ -14,8 +14,7 @@ draw_set_halign(0)
 var _t = 3
 if array_length(global.personagens) < 3 _t = array_length(global.personagens)
 for(i = 0; i < _t; i++){
-	
-	var _tamanho = (global.personagens[i].vida/global.personagens[i].hp) * 120
+
 	draw_sprite_ext(spr_slot, 0, 84, i*60+38, 5, 1.5, 0, c_white, 1)
 	draw_sprite_ext(spr_header, 0, 84, i*60+48, 2, 1, 0, c_white, 1)
 	draw_set_colour(global.bege)
@@ -24,16 +23,7 @@ for(i = 0; i < _t; i++){
 		i*60+30, 
 		string_concat(global.personagens[i].nome, ": HP ", global.personagens[i].vida, "/", global.personagens[i].hp)
 	)
-	
-	draw_set_colour(global.red)
-	
-	draw_rectangle(
-		24, 
-		i*60+43, 
-		24 + _tamanho,
-		i*60+51, 
-		0
-	)
+	barra_vida(24, i*60 + 43, 120, 8, global.personagens[i].vida, global.personagens[i].hp)
 	
 }
 
@@ -50,14 +40,6 @@ for(i = 0; i < array_length(global.inimigos); i++){
 		string_concat(global.inimigos[i].nome, ": HP ", global.inimigos[i].vida, "/", global.inimigos[i].hp)
 	)
 	
-	draw_set_colour(global.red)
-	var _tamanho = (global.inimigos[i].vida/global.inimigos[i].hp) * 122
-	draw_rectangle(
-		617,
-		i*60+43,
-		617 - _tamanho, 
-		i*60+51, 
-		0
-	)
+	barra_vida(617, i*60 + 43, -122, 8, global.inimigos[i].vida, global.inimigos[i].hp)
 	
 }

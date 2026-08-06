@@ -12,7 +12,7 @@ if (!global.flag_vela && fogo == noone) {
     fogo = part_system_create(ef_vela);
 }
 
-if global.flag_vela and part_system_create(ef_vela){
+if (global.flag_vela and fogo != noone) {
 	part_system_destroy(fogo);
     fogo = noone;
 }

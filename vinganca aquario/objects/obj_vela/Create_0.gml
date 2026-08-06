@@ -12,8 +12,8 @@ escolha = {
 	pergunta: " Deseja apagar a vela?",
 	o1: "Apagar",
 	o2: "Ignorar",
-	r1: "Suas escolhas teram consequências",
-	r2: "Suas escolhas teram consequências",
+	r1: "Suas escolhas terão consequências",
+	r2: "Suas escolhas terão consequências",
 	f: "vela",
 	
 }

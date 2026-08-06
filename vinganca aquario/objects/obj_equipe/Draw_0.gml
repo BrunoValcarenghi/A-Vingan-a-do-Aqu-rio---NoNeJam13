@@ -44,7 +44,5 @@ draw_text(336, y + 128, string_concat("Def: ", c.def))
 draw_text(336, y + 144, string_concat("Spd: ", c.spd))
 
 //vida
-draw_set_colour(global.red)
-var _tamanho = (c.vida/c.hp) * 153
-draw_rectangle(339, y + 91, 339 + _tamanho, y + 100, 0)
+barra_vida(339, y + 91, 153, 9, c.vida, c.hp)
 

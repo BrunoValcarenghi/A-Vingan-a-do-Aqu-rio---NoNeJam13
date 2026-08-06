@@ -11,8 +11,8 @@ escolha = {
 	pergunta: " Será que devo sabotar a comida dos guardas elfos?",
 	o1: "Sabotar",
 	o2: "Mantém",
-	r1: "Suas escolhas teram consequências",
-	r2: "Suas escolhas teram consequências",
+	r1: "Suas escolhas terão consequências",
+	r2: "Suas escolhas terão consequências",
 	f: "comida",
 
 }
