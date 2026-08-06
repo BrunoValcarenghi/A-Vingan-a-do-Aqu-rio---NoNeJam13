@@ -1,0 +1,2 @@
+part_type_destroy(part_borboleta);
+part_system_destroy(sys_borboletas);

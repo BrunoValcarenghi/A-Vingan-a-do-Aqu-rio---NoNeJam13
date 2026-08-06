@@ -5,7 +5,8 @@ if image_alpha = 1{
 
 	draw_self()
 
-	button_hover_1()
+	if room = Room_main button_hover_2()
+	else button_hover_1()
 
 	draw_set_font(font)
 	draw_set_colour(color)

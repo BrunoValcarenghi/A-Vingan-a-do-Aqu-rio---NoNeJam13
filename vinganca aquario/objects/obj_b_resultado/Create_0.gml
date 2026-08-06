@@ -25,8 +25,10 @@ switch flag{
 		
 	case "regador":
 		global.flag_regador = validar
-		if instance_exists(obj_escudo) instance_destroy(obj_escudo)
-		layer_set_visible("tl_lama", 1)
+		if global.flag_regador{
+			if instance_exists(obj_escudo) instance_destroy(obj_escudo)
+			layer_set_visible("tl_lama", 1)
+		}
 		break;
 		
 	case "vela":
@@ -56,12 +58,11 @@ switch flag{
 	case "fonte":
 		global.flag_sabao = validar
 		if global.flag_sabao{
-			global.arquimago.hp /= 2
-			global.arquimago_f.hp  /= 2
-			global.arquimago_f.hp  /= 2
-			global.elfo.hp  /= 2
-			global.elfo_guarda.hp  /= 2
-			global.elfo_mago.hp  /= 2
+			global.arquimago.vida /= 2
+			global.arquimago_f.vida  /= 2
+			global.elfo.vida  /= 2
+			global.elfo_guarda.vida  /= 2
+			global.elfo_mago.vida  /= 2
 		}
 		else{
 		
@@ -81,6 +82,10 @@ switch flag{
 			if instance_exists(obj_elfo) instance_destroy(obj_elfo)
 			if instance_exists(obj_elfo_mago) instance_destroy(obj_elfo_mago)
 		}
+		break;
+		
+	case "feitico":
+		global.flag_feitico = validar
 		break;
 		
 	default: break;

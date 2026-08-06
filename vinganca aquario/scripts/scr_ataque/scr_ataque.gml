@@ -9,7 +9,7 @@ function ataque(){
 		
 				//inimigo fulano de tal
 				_id_inimigo = instance_nearest(mouse_x, mouse_y, obj_char)
-				shake(2)
+				shake(4)
 				_id_inimigo.hit = 10;
 				
 				//realiza o ataque no inimigo fulano de tal

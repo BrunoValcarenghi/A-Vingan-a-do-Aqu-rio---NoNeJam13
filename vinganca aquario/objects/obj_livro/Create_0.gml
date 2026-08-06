@@ -11,8 +11,8 @@ escolha = {
 	pergunta: " Inverter ordem?",
 	o1: "Inverter",
 	o2: "Mantém",
-	r1: "O arquimago usar outro feitiço",
-	r2: "Bahhh",
+	r1: "O arquimago usará outro feitiço",
+	r2: "Suas ações terão consequências",
 	f: "feitico",
 
 }

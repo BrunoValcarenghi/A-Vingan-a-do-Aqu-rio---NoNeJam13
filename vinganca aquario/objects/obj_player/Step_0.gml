@@ -8,3 +8,6 @@ if !trava {
 }
 
 scr_pause()
+
+if (hsp != 0 or vsp != 0) and !trava sprite_index = spr_player_run
+else sprite_index = spr_player

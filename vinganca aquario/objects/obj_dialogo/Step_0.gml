@@ -3,7 +3,8 @@ y = obj_cam.y + 130
 
 obj_player.trava = true
 
-if obj_player.key_interactive {
+if obj_player.key_interactive or alarm[0] = 0 or mouse_check_button_pressed(mb_left){
+	alarm[0] = 400
 	play_audio_random(sfx_dialogo)
 	i++
 }

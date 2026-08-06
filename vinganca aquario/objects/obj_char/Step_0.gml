@@ -32,8 +32,16 @@ if !morto{
 	
 	}
 
-	if global.atacando or global.item pisca(.5, 1)
-	else image_alpha = 1
+	if global.atacando or global.item {
+		pisca(.2, 1)
+		image_xscale += pisca_timer/7
+		image_yscale += pisca_timer/7
+		}
+	else {
+		image_alpha = 1
+		image_xscale = 1
+		image_yscale = 1
+	}
 	
 }
 //morto

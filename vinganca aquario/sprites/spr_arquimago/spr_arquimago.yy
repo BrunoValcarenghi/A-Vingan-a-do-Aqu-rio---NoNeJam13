@@ -12,17 +12,17 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"v1","%Name":"0325297c-0aa6-4457-9a2c-38b4ca6d5783","name":"0325297c-0aa6-4457-9a2c-38b4ca6d5783","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"v1","%Name":"badbbfbf-dc13-4166-8919-4933ba159a1c","name":"badbbfbf-dc13-4166-8919-4933ba159a1c","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"v1","%Name":"4bf8d3a8-4d8e-4f62-9197-c1b5a945deb2","name":"4bf8d3a8-4d8e-4f62-9197-c1b5a945deb2","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"v1","%Name":"7e0f6158-bbda-4624-9a42-2b87cceaf118","name":"7e0f6158-bbda-4624-9a42-2b87cceaf118","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"b0cb85d7-b52d-4079-9d55-07870e70ceb6","name":"b0cb85d7-b52d-4079-9d55-07870e70ceb6","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"7b4ce523-ebac-4538-bb6c-7be6d4c49060","name":"7b4ce523-ebac-4538-bb6c-7be6d4c49060","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"814ee1b3-56d3-4cfc-9595-c3ac29e31c3a","name":"814ee1b3-56d3-4cfc-9595-c3ac29e31c3a","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"60e783eb-fa66-43a3-b463-d5289893da41","name":"60e783eb-fa66-43a3-b463-d5289893da41","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
   "height":32,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"9f3ef6f9-f864-4f41-8b06-1770453ded41","blendMode":0,"displayName":"default","isLocked":false,"name":"9f3ef6f9-f864-4f41-8b06-1770453ded41","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"e6ba3f82-6641-41b1-9ab7-2f97079fbda4","blendMode":0,"displayName":"default","isLocked":false,"name":"e6ba3f82-6641-41b1-9ab7-2f97079fbda4","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"spr_arquimago",
   "nineSlice":null,
@@ -72,17 +72,17 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"0325297c-0aa6-4457-9a2c-38b4ca6d5783","path":"sprites/spr_arquimago/spr_arquimago.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"7220e558-96cb-479e-9a37-a41d56976538","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"b0cb85d7-b52d-4079-9d55-07870e70ceb6","path":"sprites/spr_arquimago/spr_arquimago.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"4014ef49-d913-4d77-bceb-ec45b7e54119","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"badbbfbf-dc13-4166-8919-4933ba159a1c","path":"sprites/spr_arquimago/spr_arquimago.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"e7bb9c48-0f26-43e3-a769-6e6d8532b333","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"7b4ce523-ebac-4538-bb6c-7be6d4c49060","path":"sprites/spr_arquimago/spr_arquimago.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"5506b3b6-1fdb-46ee-a375-ecbb15cf19b5","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"4bf8d3a8-4d8e-4f62-9197-c1b5a945deb2","path":"sprites/spr_arquimago/spr_arquimago.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"f93580e4-0455-4065-956e-2c1d19b8c9b7","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"814ee1b3-56d3-4cfc-9595-c3ac29e31c3a","path":"sprites/spr_arquimago/spr_arquimago.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"b6b773cc-7159-4d07-aeac-6f8b892d93a9","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"7e0f6158-bbda-4624-9a42-2b87cceaf118","path":"sprites/spr_arquimago/spr_arquimago.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"fbdcd5af-d6e1-4169-b100-2b194afa3ae3","IsCreationKey":false,"Key":3.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"60e783eb-fa66-43a3-b463-d5289893da41","path":"sprites/spr_arquimago/spr_arquimago.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"310fb133-7e17-4a06-a8c8-4bd06641d811","IsCreationKey":false,"Key":3.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

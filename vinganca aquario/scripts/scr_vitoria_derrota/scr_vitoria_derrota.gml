@@ -78,7 +78,8 @@ function vitoria(){
 
 function derrota(){
 	
-	show_message("perdeu!")
-	game_restart()
+	if !instance_exists(obj_game_over) instance_create_layer(320, 150, "Instances", obj_game_over)
+	//show_message("perdeu!")
+	//game_restart()
 	
 }

@@ -19,7 +19,7 @@ if (array_length(_alvos_validos) > 0) {
     var dano = floor(power(global.batalha[global.vez].atk, 2) / (global.batalha[global.vez].atk + global.batalha[_id_atacar].def));
 	perdeu_defesa(_id_atacar)
     if (dano < 1) dano = 1;
-    shake(1)
+    shake(3)
 	_id_obj_atacar = noone
 	with (obj_char) {
 	    if (vez == other._id_atacar) {

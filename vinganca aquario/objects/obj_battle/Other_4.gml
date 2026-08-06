@@ -1,3 +1,5 @@
+if global.sala_anterior = Room2 layer_set_visible("Tiles_2", 1)
+
 global.batalha = []
 global.batalha_obj = []
 global.vez = 0

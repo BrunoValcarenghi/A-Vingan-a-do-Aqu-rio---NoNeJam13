@@ -34,7 +34,7 @@ function button_hover_2(){
 		b_color = hb_color
 		
 		if tx < 5 tx += 0.3
-		if x < 100 x += 2.5
+		if x < 180 x += 2.5
 
 	}
 	else{
@@ -43,7 +43,7 @@ function button_hover_2(){
 		b_color = ib_color
 		
 		if tx > 0 tx -= 0.5
-		if x > 80 x -= 3.3
+		if x > 160 x -= 3.3
 
 	}
 

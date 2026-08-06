@@ -5,6 +5,7 @@
 		inimigos = [variable_clone(global.boss_suspeito)]
 		if !global.flag_dog array_push(inimigos, global.boss_cachorro)
 		d = true
+		global.music_battle = msc_boss_mendigo
 		instance_create_layer(-999, -999, "ui", obj_dialogo, {f: falas, chose: escolha})
 		
 	}

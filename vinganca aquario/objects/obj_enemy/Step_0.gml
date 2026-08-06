@@ -1,12 +1,9 @@
  if place_meeting(x, y, obj_player_col) and ativo{
 	
 	ativo = false
-	
 	global.sala_anterior = room;
 
 	global.inimigos = inimigos
-	
-	
 	
 	alarm[0] = 90
 	transition(Room_battle, saida, entrada)

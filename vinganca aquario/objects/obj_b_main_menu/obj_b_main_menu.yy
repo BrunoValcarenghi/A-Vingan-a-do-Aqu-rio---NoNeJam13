@@ -38,9 +38,6 @@
     "name":"spr_slot",
     "path":"sprites/spr_slot/spr_slot.yy",
   },
-  "spriteMaskId":{
-    "name":"spr_button",
-    "path":"sprites/spr_button/spr_button.yy",
-  },
+  "spriteMaskId":null,
   "visible":true,
 }

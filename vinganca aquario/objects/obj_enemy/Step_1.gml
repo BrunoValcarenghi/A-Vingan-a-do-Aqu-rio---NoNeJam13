@@ -1,0 +1,1 @@
+if !ativo and alarm[0] > 30 play_audio_random(sfx_transition)

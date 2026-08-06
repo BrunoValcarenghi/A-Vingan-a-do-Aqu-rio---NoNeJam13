@@ -1,15 +1,7 @@
-if room = Room_settings and 
-(keyboard_check_pressed(vk_escape) or 
-mouse_check_button_pressed(mb_right)){
-
-	room_goto_previous()
-
-}
-
 //Fullscreen
 
 ini_open("save.sav")
-if keyboard_check_pressed(ord("F"))
+if keyboard_check_pressed(vk_f11)
 {
     if window_get_fullscreen()
     { 

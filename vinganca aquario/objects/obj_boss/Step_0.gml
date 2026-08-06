@@ -5,6 +5,7 @@
 	
 		d = true
 		instance_create_layer(-999, -999, "ui", obj_dialogo, {f: falas, chose: escolha})
+		global.music_battle = msc_boss
 		
 	}
 	if d and !instance_exists(obj_dialogo){

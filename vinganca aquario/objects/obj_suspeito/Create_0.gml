@@ -13,8 +13,8 @@ escolha = {
 	pergunta: " Deseja ajudar o Homem Suspeito?",
 	o1: "Ajudar",
 	o2: "Não",
-	r1: "Obrigado!",
-	r2: "Você é ruim!",
+	r1: "Suas escolhas teram consequências",
+	r2: "Suas escolhas teram consequências",
 	f: "esmola",
 	
 }
