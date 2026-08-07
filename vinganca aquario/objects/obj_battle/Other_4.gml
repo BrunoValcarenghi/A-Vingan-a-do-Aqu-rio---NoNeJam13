@@ -9,6 +9,34 @@ global.item = false
 xp = 0
 ganhou = false
 
+efeitos = [];
+efeito_timer = 240;
+
+// só lista o que realmente afeta ESTA batalha
+for(var i = 0; i < array_length(global.inimigos); i++){
+    var _n = global.inimigos[i].nome;
+
+    if _n == "Orc" and global.flag_regador
+        array_push(efeitos, "O chão molhado tirou o escudo do Orc");
+
+    if _n == "Golem" and global.flag_mago
+        array_push(efeitos, "O Golem teme o mago que você libertou");
+
+    if _n == "Arquimago" and global.flag_feitico
+        array_push(efeitos, "Os grimórios fora de ordem sabotaram o feitiço");
+
+    if string_pos("Elfo", _n) > 0 and global.flag_sabao
+        array_push(efeitos, "A espuma na tubulação enfraqueceu os elfos");
+
+    if _n == "Espírito" and global.flag_rato
+        array_push(efeitos, "O espírito cobra os animais que você matou");
+
+    if _n == "Cachorro" and !global.flag_dog
+        array_push(efeitos, "O cão que você ignorou está do outro lado");
+}
+
+if array_length(efeitos) > 0 borboletas(320, 180, 25);
+
 var _t = 3
 if array_length(global.personagens) < 3 _t = array_length(global.personagens)
 

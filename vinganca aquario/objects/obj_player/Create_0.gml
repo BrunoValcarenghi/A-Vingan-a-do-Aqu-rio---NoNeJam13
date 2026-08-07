@@ -1,6 +1,6 @@
 global.pausa = false;
 trava = false;
 
-wlk = 1;
-run = 1.7;
+wlk = 10;
+run = 10.7;
 spd = wlk

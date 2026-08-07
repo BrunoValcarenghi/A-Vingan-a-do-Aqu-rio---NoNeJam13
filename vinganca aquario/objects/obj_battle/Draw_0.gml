@@ -43,3 +43,13 @@ for(i = 0; i < array_length(global.inimigos); i++){
 	barra_vida(617, i*60 + 43, -122, 8, global.inimigos[i].vida, global.inimigos[i].hp)
 	
 }
+if efeito_timer > 0{
+    efeito_timer--;
+    draw_set_halign(1);
+    draw_set_font(f_nicoclean);
+    draw_set_colour(global.bege);
+    for(var i = 0; i < array_length(efeitos); i++){
+        draw_text(320, 180 + i*16, efeitos[i]);
+    }
+    draw_set_halign(0);
+}
