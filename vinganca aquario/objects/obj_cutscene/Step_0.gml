@@ -1,7 +1,7 @@
 x = obj_cam.x
 y = obj_cam.y + 130
 
-if image_xscale < 2.7 image_xscale += 0.1
+if image_xscale < 1.4 image_xscale += 0.1
 
 if i >= array_length(f) - 1{
 	if keyboard_check_pressed(ord("E")) or alarm[0] = 0 or mouse_check_button_pressed(mb_left){

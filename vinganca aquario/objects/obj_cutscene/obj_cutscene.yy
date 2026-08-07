@@ -33,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_banner",
-    "path":"sprites/spr_banner/spr_banner.yy",
+    "name":"spr_banner_2",
+    "path":"sprites/spr_banner_2/spr_banner_2.yy",
   },
   "spriteMaskId":null,
   "visible":true,

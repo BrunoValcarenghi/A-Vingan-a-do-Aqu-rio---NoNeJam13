@@ -1,5 +1,5 @@
 image_xscale = 0
-image_yscale = 2.4
+image_yscale = 1.2
 play_audio_random(sfx_dialogo)
 i = 0
 
