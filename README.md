@@ -74,12 +74,6 @@ Castelo — Edimburgo
 # 5 - SISTEMA DE EFEITO BORBOLETA:
 O núcleo do jogo. Dez decisões são registradas em flags globais que sobrevivem até o epílogo. 
 
-## Princípios de design  
-A causa nunca anuncia o efeito. O jogo diz o que mudou no mundo ("um antigo sistema élfico foi ativado"), nunca o que isso vai provocar.  
-A distância importa. Toda escolha do Ato 1 se paga no Ato 2 ou depois. Consequência imediata não é efeito borboleta.  
-A conexão precisa ser recuperável. Quando a consequência chega, o jogo sinaliza, seja com borboletas na tela e uma linha de texto,que aquilo foi causado pelo jogador.  
-As escolhas se cruzam. Algumas consequências dependem de duas decisões combinadas, não de uma só.  
-
 ## Ato 1
 **Pedido de esmola:** O jogador encontrará um NPC pedindo esmola, caso o jogador negue ajuda ele virá como um boss final. Caso jogador ajude, ele dará um kit médico ao jogador antes da boss final.  
 **Cachorro na corda:** Caso o jogador ajude, o cão entra na equipe. Caso o jogador não interaja com o cachorro ele se torna aliado do npc anterior.  
