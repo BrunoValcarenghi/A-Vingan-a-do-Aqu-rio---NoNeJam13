@@ -9,7 +9,7 @@ if i >= array_length(f) - 1{
 	}
 }
 else if keyboard_check_pressed(ord("E")) or alarm[0] = 0 or mouse_check_button_pressed(mb_left){
-	alarm[0] = 800
+	alarm[0] = 180
 	play_audio_random(sfx_dialogo)
 	i++
 	layer_background_index(layer_background_get_id("Background"), i);

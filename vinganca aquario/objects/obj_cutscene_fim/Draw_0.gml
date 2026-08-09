@@ -6,6 +6,5 @@ draw_set_halign(0)
 draw_set_valign(0)
 
 draw_set_colour(global.brown)
-image_xscale = 1.4 draw_text(x - 290, y - 24, f[i])
 
 
